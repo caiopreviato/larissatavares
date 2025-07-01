@@ -364,6 +364,15 @@ footer {
   color: #ffd5a3;
 }
 
+/* Menu hamburguer */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #5d3825;
+  padding: 10px;
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   nav {
