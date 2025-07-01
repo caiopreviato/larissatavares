@@ -12,5 +12,8 @@ document.querySelectorAll('.accordion-header').forEach(button => {
     }
   });
 });
-
+function toggleMenu() {
+  var menu = document.getElementById("nav-menu");
+  menu.classList.toggle("active");
+};
 
